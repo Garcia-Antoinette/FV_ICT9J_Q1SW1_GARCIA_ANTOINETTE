@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Seatwork 1</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #d9f3ff, #f5d8ff, #fff0c7);
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 25px auto;
+            text-align: center;
+        }
+
+        header, .intro, .artist-card, .list-box, footer {
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+
+        header {
+            background: rgba(255,255,255,0.65);
+            padding: 18px;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #6f4a8e;
+            font-size: 34px;
+        }
+
+        header p {
+            margin-bottom: 0;
+            font-style: italic;
+        }
+
+        .intro {
+            background: rgba(255,255,255,0.75);
+            padding: 15px 25px;
+            margin-bottom: 15px;
+        }
+
+        .intro h2 {
+            color: #6f4a8e;
+        }
+
+        .artists {
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+        }
+
+        .artist-card {
+            background: rgba(255,255,255,0.82);
+            width: 31%;
+            padding: 15px;
+        }
+
+        .artist-card img {
+            width: 155px;
+            height: 155px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .artist-card h2 {
+            color: #6f4a8e;
+            margin: 10px 0 5px;
+        }
+
+        .artist-card p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .list-box {
+            background: rgba(255,255,255,0.75);
+            margin-top: 18px;
+            padding: 15px 25px;
+            text-align: left;
+        }
+
+        .list-box h2 {
+            text-align: center;
+            color: #6f4a8e;
+        }
+
+        .list-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .list-grid h3 {
+            color: #6f4a8e;
+            font-size: 15px;
+        }
+
+        li, dd, dt {
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+
+        dt {
+            font-weight: bold;
+            color: #6f4a8e;
+        }
+
+        footer {
+            background: rgba(255,255,255,0.65);
+            padding: 10px;
+            margin-top: 15px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1 style="letter-spacing: 1px;">🎧 My Top 3 Spotify Artists</h1>
+        <p>Artists whose music I enjoy listening to!</p>
+    </header>
+
+    <div class="intro">
+        <h2>About My Music Taste</h2>
+        <p>
+            I like listening to different kinds of music depending on my mood.
+            Ariana Grande, Denise Julia, and The Weeknd are three of my favorite artists
+            because their songs have catchy melodies, different vibes, and lyrics that
+            I can enjoy while studying, relaxing, or just listening to music.
+        </p>
+    </div>
+
+    <div class="artists">
+
+        <div class="artist-card">
+            <img src="https://image.tmdb.org/t/p/original/q2AmgxD85vntzf0EhDg4GUNLaxU.jpg" alt="Ariana Grande">
+            <h2>Ariana Grande</h2>
+            <p>
+                I like Ariana Grande because of her beautiful voice and her pop and R&B songs.
+                Her music can be calm, fun, and emotional, which makes her songs enjoyable to listen to.
+            </p>
+        </div>
+
+        <div class="artist-card">
+            <img src="https://i.scdn.co/image/ab6761610000e5eb36562c12f6e0844f2fd277e7" alt="Denise Julia">
+            <h2>Denise Julia</h2>
+            <p>
+                I like Denise Julia because of her modern R&B sound and catchy songs.
+                Her music has a smooth vibe that makes it easy to listen to, especially when relaxing.
+            </p>
+        </div>
+
+        <div class="artist-card">
+            <img src="https://www.republicrecords.com/cdn/shop/files/TheWeeknd-Edit.jpg?v=1746649811&width=2752" alt="The Weeknd">
+            <h2>The Weeknd</h2>
+            <p>
+                I like The Weeknd because his songs have a unique sound and strong atmosphere.
+                His music is perfect when I want something chill, catchy, or more emotional.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="list-box">
+        <h2>🎵 My Spotify Lists</h2>
+
+        <div class="list-grid">
+
+            <div>
+                <h3>1. Unordered List - Favorite Artists</h3>
+                <ul>
+                    <li>Ariana Grande</li>
+                    <li>Denise Julia</li>
+                    <li>The Weeknd</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>2. Ordered List - My Listening Order</h3>
+                <ol>
+                    <li>Choose my mood.</li>
+                    <li>Pick an artist.</li>
+                    <li>Play my favorite song.</li>
+                </ol>
+            </div>
+
+            <div>
+                <h3>3. Description List - Music Moods</h3>
+                <dl>
+                    <dt>Chill</dt>
+                    <dd>Music I play when I want to relax.</dd>
+                    <dt>Happy</dt>
+                    <dd>Fun songs that put me in a good mood.</dd>
+                    <dt>Emotional</dt>
+                    <dd>Songs I listen to when I want a deeper vibe.</dd>
+                </dl>
+            </div>
+
+            <div>
+                <h3>4. Nested List - When I Listen</h3>
+                <ul>
+                    <li>At home
+                        <ul>
+                            <li>While studying</li>
+                            <li>While relaxing</li>
+                        </ul>
+                    </li>
+                    <li>Outside
+                        <ul>
+                            <li>While traveling</li>
+                            <li>With friends</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        © 2026 My Top 3 Spotify Artists | Created by Caleigh Garcia - 9 Jade
+    </footer>
+
+</div>
+
+</body>
+</html>
